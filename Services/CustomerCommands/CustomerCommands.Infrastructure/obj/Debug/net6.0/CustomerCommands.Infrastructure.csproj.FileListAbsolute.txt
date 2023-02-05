@@ -1,0 +1,17 @@
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\obj\Debug\net6.0\CustomerCommands.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\obj\Debug\net6.0\CustomerCommands.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\obj\Debug\net6.0\CustomerCommands.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\obj\Debug\net6.0\CustomerCommands.Infrastructure.AssemblyInfo.cs
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\obj\Debug\net6.0\CustomerCommands.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\bin\Debug\net6.0\CustomerCommands.Infrastructure.deps.json
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\bin\Debug\net6.0\CustomerCommands.Infrastructure.dll
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\bin\Debug\net6.0\CustomerCommands.Infrastructure.pdb
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\bin\Debug\net6.0\CustomerCommands.Application.dll
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\bin\Debug\net6.0\CustomerCommands.Domain.dll
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\bin\Debug\net6.0\CustomerCommands.Application.pdb
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\bin\Debug\net6.0\CustomerCommands.Domain.pdb
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\obj\Debug\net6.0\CustomerCommands.Infrastructure.csproj.CopyComplete
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\obj\Debug\net6.0\CustomerCommands.Infrastructure.dll
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\obj\Debug\net6.0\refint\CustomerCommands.Infrastructure.dll
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\obj\Debug\net6.0\CustomerCommands.Infrastructure.pdb
+C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Infrastructure\obj\Debug\net6.0\ref\CustomerCommands.Infrastructure.dll

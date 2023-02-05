@@ -1,0 +1,54 @@
+services:
+  CustomersMongoDb:
+    container_name: CustomersMongoDb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - mongo_data:/data/db:rw
+  CustomersMssqlDb:
+    container_name: CustomersMssqlDb
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: ImI12345678
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+    - published: 1433
+      target: 1433
+    restart: always
+  customercommands.api:
+    build:
+      context: C:\Users\imenk\source\repos\ClientServices
+      dockerfile: Services/CustomerCommands/CustomerCommands.API/Dockerfile
+    container_name: customercommands.api
+    depends_on:
+      CustomersMssqlDb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:CustomerConnectionString: Server=CustomersMssqlDb;Database=CustomersDb;User
+        Id=sa;Password=ImI12345678
+    image: customercommandsapi
+    ports:
+    - published: 8001
+      target: 80
+  customerquery.api:
+    build:
+      context: C:\Users\imenk\source\repos\ClientServices
+      dockerfile: Services/CustomerQuery/CustomerQuery.API/Dockerfile
+    container_name: customerquery.api
+    depends_on:
+      CustomersMongoDb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings:ConnectionString: mongodb://CustomersMongoDb:27017
+    image: customerqueryapi
+    ports:
+    - published: 8000
+      target: 80
+version: '3.4'
+volumes:
+  mongo_data: {}

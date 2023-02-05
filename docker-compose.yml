@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  CustomersMongoDb:
+    image: mongo
+
+  CustomersMssqlDb:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+
+  customercommands.api:
+    image: ${DOCKER_REGISTRY-}customercommandsapi
+    build:
+      context: .
+      dockerfile: Services/CustomerCommands/CustomerCommands.API/Dockerfile
+
+  customerquery.api:
+    image: ${DOCKER_REGISTRY-}customerqueryapi
+    build:
+      context: .
+      dockerfile: Services/CustomerQuery/CustomerQuery.API/Dockerfile
+
+volumes:
+  mongo_data:

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "c5SdchBvPNvuhIyroqM76zylKa3U35nqGCZQJA6YxV4=",
+  "Source": "CustomerQuery.API",
+  "BasePath": "_content/CustomerQuery.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

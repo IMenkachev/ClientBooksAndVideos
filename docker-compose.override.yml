@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  CustomersMongoDb:
+    container_name: CustomersMongoDb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  CustomersMssqlDb:
+    container_name: CustomersMssqlDb
+    environment:
+      MSSQL_SA_PASSWORD: "ImI12345678"
+      ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+      - "1433:1433"
+
+  customercommands.api:
+    container_name: customercommands.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings:CustomerConnectionString=Server=CustomersMssqlDb;Database=CustomersDb;User Id=sa;Password=ImI12345678
+    depends_on:
+      - CustomersMssqlDb
+    ports:
+      - "8001:80"
+
+  customerquery.api:
+    container_name: customerquery.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "DatabaseSettings:ConnectionString=mongodb://CustomersMongoDb:27017"
+    depends_on:
+      - CustomersMongoDb
+    ports:
+      - "8000:80"
