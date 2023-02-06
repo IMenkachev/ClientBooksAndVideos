@@ -20,7 +20,7 @@ services:
     restart: always
   customercommands.api:
     build:
-      context: C:\Users\imenk\source\repos\ClientServices
+      context: C:\Users\imenk\Source\Repos\Client_Services
       dockerfile: Services/CustomerCommands/CustomerCommands.API/Dockerfile
     container_name: customercommands.api
     depends_on:
@@ -36,7 +36,7 @@ services:
       target: 80
   customerquery.api:
     build:
-      context: C:\Users\imenk\source\repos\ClientServices
+      context: C:\Users\imenk\Source\Repos\Client_Services
       dockerfile: Services/CustomerQuery/CustomerQuery.API/Dockerfile
     container_name: customerquery.api
     depends_on:

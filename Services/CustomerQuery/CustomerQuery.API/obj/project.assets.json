@@ -1582,11 +1582,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\imenk\\source\\repos\\ClientServices\\Services\\CustomerQuery\\CustomerQuery.API\\CustomerQuery.API.csproj",
+      "projectUniqueName": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerQuery\\CustomerQuery.API\\CustomerQuery.API.csproj",
       "projectName": "CustomerQuery.API",
-      "projectPath": "C:\\Users\\imenk\\source\\repos\\ClientServices\\Services\\CustomerQuery\\CustomerQuery.API\\CustomerQuery.API.csproj",
+      "projectPath": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerQuery\\CustomerQuery.API\\CustomerQuery.API.csproj",
       "packagesPath": "C:\\Users\\imenk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\imenk\\source\\repos\\ClientServices\\Services\\CustomerQuery\\CustomerQuery.API\\obj\\",
+      "outputPath": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerQuery\\CustomerQuery.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\imenk\\AppData\\Roaming\\NuGet\\NuGet.Config",

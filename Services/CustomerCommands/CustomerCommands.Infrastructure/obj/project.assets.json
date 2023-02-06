@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\imenk\\source\\repos\\ClientServices\\Services\\CustomerCommands\\CustomerCommands.Infrastructure\\CustomerCommands.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Infrastructure\\CustomerCommands.Infrastructure.csproj",
       "projectName": "CustomerCommands.Infrastructure",
-      "projectPath": "C:\\Users\\imenk\\source\\repos\\ClientServices\\Services\\CustomerCommands\\CustomerCommands.Infrastructure\\CustomerCommands.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Infrastructure\\CustomerCommands.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\imenk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\imenk\\source\\repos\\ClientServices\\Services\\CustomerCommands\\CustomerCommands.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\imenk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3435,8 +3435,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\imenk\\source\\repos\\ClientServices\\Services\\CustomerCommands\\CustomerCommands.Application\\CustomerCommands.Application.csproj": {
-              "projectPath": "C:\\Users\\imenk\\source\\repos\\ClientServices\\Services\\CustomerCommands\\CustomerCommands.Application\\CustomerCommands.Application.csproj"
+            "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Application\\CustomerCommands.Application.csproj": {
+              "projectPath": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Application\\CustomerCommands.Application.csproj"
             }
           }
         }

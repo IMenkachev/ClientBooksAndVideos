@@ -10,3 +10,15 @@ C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCom
 C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\refint\CustomerCommands.Domain.dll
 C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\CustomerCommands.Domain.pdb
 C:\Users\imenk\source\repos\ClientServices\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\ref\CustomerCommands.Domain.dll
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\bin\Debug\net6.0\CustomerCommands.Domain.deps.json
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\bin\Debug\net6.0\CustomerCommands.Domain.dll
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\bin\Debug\net6.0\CustomerCommands.Domain.pdb
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\CustomerCommands.Domain.csproj.AssemblyReference.cache
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\CustomerCommands.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\CustomerCommands.Domain.AssemblyInfoInputs.cache
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\CustomerCommands.Domain.AssemblyInfo.cs
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\CustomerCommands.Domain.csproj.CoreCompileInputs.cache
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\CustomerCommands.Domain.dll
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\refint\CustomerCommands.Domain.dll
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\CustomerCommands.Domain.pdb
+C:\Users\imenk\Source\Repos\Client_Services\Services\CustomerCommands\CustomerCommands.Domain\obj\Debug\net6.0\ref\CustomerCommands.Domain.dll

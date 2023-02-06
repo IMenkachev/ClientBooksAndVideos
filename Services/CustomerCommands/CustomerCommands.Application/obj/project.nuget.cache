@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rf9zOU0RutQFzeemj+BVXVTqiR1Gdd7umZGOty4Z9BWNsCFamP/CGW/apBftLSV/Z/8CntYjvoJIHXrjtOzipw==",
+  "dgSpecHash": "UJlORqCVqhtXCG6YT9I369uEaX431T3M++ml0uNIz7UhXheTpLD3weXSMNC1EBvSgZCoiiJl4DyrQ/kNtGnofA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\imenk\\source\\repos\\ClientServices\\Services\\CustomerCommands\\CustomerCommands.Application\\CustomerCommands.Application.csproj",
+  "projectFilePath": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Application\\CustomerCommands.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\imenk\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\imenk\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
