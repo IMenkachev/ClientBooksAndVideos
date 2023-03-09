@@ -25,5 +25,3 @@ When you run the app, it will spinup five containers.
 5. *rabbitmq* which exposes the default 15672 port with credentials "guest"/"guest".
 
 Additionally a public postman collection is available. Please note that the Id's in the requests will be different and could be found by connecting to the mssql database.
-
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://api.postman.com/collections/8883697-18171042-4d28-4ac3-857b-314ea099b80c?access_key=PMAT-01GV4AF4PXYWGJN4A3JFE8S828)
