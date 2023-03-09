@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kavkEZMgdH4mg76jFjr8PHfKXns9qJgIucQeGHgVJD91Hgbu4Ag/axpFlwMWiY7mjf2lDclH0IZPLBbsSPvrIw==",
+  "dgSpecHash": "V34q4cPsk+Ux8cVLuqlA0jzHwkBAvYch6Q3SmkXeSchb2jAnV6Z0YVkbu0p6lU3pu2Y/HYuRHsDnRHL0JBpcSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Domain\\CustomerCommands.Domain.csproj",
+  "projectFilePath": "C:\\Users\\imenk\\source\\repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Domain\\CustomerCommands.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

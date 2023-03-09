@@ -1,14 +1,15 @@
 ﻿using CustomerCommands.Application.Contracts.Persistence;
 using CustomerCommands.Domain.Common;
+using CustomerCommands.Domain.Products;
 using CustomerCommands.Infrastructure.Persistence;
 
 namespace CustomerCommands.Infrastructure.Repositories
 {
     public class RepositoryBase<T> : IAsyncRepository<T> where T : EntityBase
     {
-        protected readonly CustomerContext _dbContext;
+        protected readonly BooksAndVideosContext _dbContext;
 
-        public RepositoryBase(CustomerContext dbContext)
+        public RepositoryBase(BooksAndVideosContext dbContext)
         {
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
         }
@@ -27,7 +28,7 @@ namespace CustomerCommands.Infrastructure.Repositories
             return entity;  
         }
 
-        public async Task<T> GetByIdAsync(int id)
+        public async Task<T> GetByIdAsync(Guid id)
         {
             return await _dbContext.Set<T>().FindAsync(id);
         }
@@ -35,6 +36,12 @@ namespace CustomerCommands.Infrastructure.Repositories
         public async Task<T> SaveAsync(T entity)
         {  
             await _dbContext.SaveChangesAsync();    
+            return entity;
+        }
+
+        public async Task<T> UpdateAsync(T entity)
+        {
+            _dbContext.Update(entity);
             return entity;
         }
     }

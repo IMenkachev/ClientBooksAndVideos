@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Domain\\CustomerCommands.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\imenk\\source\\repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Domain\\CustomerCommands.Domain.csproj",
       "projectName": "CustomerCommands.Domain",
-      "projectPath": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Domain\\CustomerCommands.Domain.csproj",
+      "projectPath": "C:\\Users\\imenk\\source\\repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Domain\\CustomerCommands.Domain.csproj",
       "packagesPath": "C:\\Users\\imenk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\imenk\\Source\\Repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Domain\\obj\\",
+      "outputPath": "C:\\Users\\imenk\\source\\repos\\Client_Services\\Services\\CustomerCommands\\CustomerCommands.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\imenk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

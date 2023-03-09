@@ -1,16 +1,14 @@
 version: '3.4'
 
 services:
-  CustomersMongoDb:
-    container_name: CustomersMongoDb
+  BooksAndVideosMongoDb:
+    container_name: BooksAndVideosMongoDb
     restart: always
     ports:
       - "27017:27017"
-    volumes:
-      - mongo_data:/data/db
 
-  CustomersMssqlDb:
-    container_name: CustomersMssqlDb
+  BooksAndVideosMssqlDb:
+    container_name: BooksAndVideosMssqlDb
     environment:
       MSSQL_SA_PASSWORD: "ImI12345678"
       ACCEPT_EULA: "Y"
@@ -18,13 +16,21 @@ services:
     ports:
       - "1433:1433"
 
+  rabbitmq:
+    container_name: rabbitmq
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
   customercommands.api:
     container_name: customercommands.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings:CustomerConnectionString=Server=CustomersMssqlDb;Database=CustomersDb;User Id=sa;Password=ImI12345678
+      - ConnectionStrings:CustomerConnectionString=Server=BooksAndVideosMssqlDb;Database=BooksAndVideosDb;User Id=sa;Password=ImI12345678;Encrypt=false
+      - EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672
     depends_on:
-      - CustomersMssqlDb
+      - BooksAndVideosMssqlDb
     ports:
       - "8001:80"
 
@@ -32,8 +38,9 @@ services:
     container_name: customerquery.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - "DatabaseSettings:ConnectionString=mongodb://CustomersMongoDb:27017"
+      - "DatabaseSettings:ConnectionString=mongodb://BooksAndVideosMongoDb:27017"
+      - EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672
     depends_on:
-      - CustomersMongoDb
+      - BooksAndVideosMongoDb
     ports:
       - "8000:80"

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "j874+grYv1d74TwVX9oytcafjHQrXZSQubT7VpLjaeQ=",
+  "Source": "DatabaseSynchronization",
+  "BasePath": "_content/DatabaseSynchronization",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

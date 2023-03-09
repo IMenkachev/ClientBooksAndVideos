@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using CustomerQuery.API.Entities;
-using CustomerQuery.API.Features.Customers.Common;
+using CustomerQuery.API.Models;
 
 namespace CustomerQuery.API.Mappings
 {
@@ -9,6 +9,11 @@ namespace CustomerQuery.API.Mappings
         public MappingProfile()
         {
             CreateMap<Customer, CustomerDto>().ReverseMap();
+            CreateMap<Membership, MembershipDto>().ReverseMap();
+            CreateMap<Order, OrderDto>().ReverseMap();
+            CreateMap<OrderItem, OrderItemDto>().ReverseMap();
+            CreateMap<ShippingSlip, ShippingSlipDto>().ReverseMap();
+            CreateMap<Product, ProductDto>().ReverseMap();
         }
     }
 }

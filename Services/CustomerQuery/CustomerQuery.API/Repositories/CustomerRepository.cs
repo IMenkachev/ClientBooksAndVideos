@@ -1,4 +1,5 @@
-﻿using CustomerQuery.API.Data;
+﻿using CustomerQuery.API.Contracts;
+using CustomerQuery.API.Persistence;
 using CustomerQuery.API.Entities;
 using MongoDB.Driver;
 
@@ -6,18 +7,26 @@ namespace CustomerQuery.API.Repositories
 {
     public class CustomerRepository : ICustomerRepository
     {
-        private readonly ICustomerContext _context;
+        private readonly IBooksAndVideosContext _context;
 
-        public CustomerRepository(ICustomerContext context)
+        public CustomerRepository(IBooksAndVideosContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<Customer> GetCustomer(int customerId)
+        public async Task<IEnumerable<Customer>> GetAllAsync()
         {
             return await _context
                 .Customers
-                .Find(c => c.Id == customerId)
+                .Find(c => true)
+                .ToListAsync();
+        }
+
+        public async Task<Customer> GetByIdAsync(Guid id)
+        {
+            return await _context
+                .Customers
+                .Find(c => c.Id == id)
                 .FirstOrDefaultAsync();
         }
 
@@ -34,14 +43,6 @@ namespace CustomerQuery.API.Repositories
             return await _context
                 .Customers
                 .Find(c => c.LastName == lastName)
-                .ToListAsync();
-        }
-
-        public async Task<IEnumerable<Customer>> GetCustomers()
-        {
-            return await _context
-                .Customers
-                .Find(c => true)
                 .ToListAsync();
         }
     }
