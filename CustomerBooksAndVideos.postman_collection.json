@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "18171042-4d28-4ac3-857b-314ea099b80c",
+		"name": "CustomerBooksAndVideos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8883697"
+	},
+	"item": [
+		{
+			"name": "CustomerCheckoutOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"customerId\": \"e136c1c4-1dd8-457e-924a-48647e230797\",\r\n  \"orderItems\": [\r\n    {\r\n      \"name\": \"1984\",\r\n      \"membershipId\": null,\r\n      \"productId\": \"ee8c049b-6490-486f-926a-dd480153654d\",\r\n      \"quantity\": 1\r\n    },\r\n    {\r\n      \"name\": \"American Pie\",\r\n      \"membershipId\": null,\r\n      \"productId\": \"68bb52d0-75f4-4d3a-b0f7-9847c50d9195\",\r\n      \"quantity\": 1\r\n    },\r\n    {\r\n      \"name\": \"The Little Prince\",\r\n      \"membershipId\": null,\r\n      \"productId\": \"858cade7-717d-4ff8-a79d-83f0a4268a0e\",\r\n      \"quantity\": null\r\n    },\r\n    {\r\n        \"name\": \"Premium Club\",\r\n        \"membershipId\": \"30b556c8-d124-4d65-a0a9-4a96695f8a6a\",\r\n        \"productId\": null,\r\n        \"quantity\": null\r\n    }\r\n  ],\r\n  \"deliveryAddress\": \"Seasam streat 1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/CheckoutOrder/CheckoutOrder",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"CheckoutOrder",
+						"CheckoutOrder"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://localhost:5001"
+		}
+	]
+}
