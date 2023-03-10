@@ -10,6 +10,12 @@ This is a Code Kata showcase challange that required building an webapi for expo
 - BR1. If the purchase order contains a membership, it has to be activated in the customer account immediately.
 - BR2. If the purchase order contains a physical product a shipping slip has to be generated.
 
+Additionally - two APIs implementation with CQRS: 
+*CustomerCommands.API* for writing data implemented with rich domain model design using MSSQL database.
+*CustomerQuery.API* for reading data implemented with anemic domain model design and MongoDb database.
+
+The synchronization between both is happenning in third API *DatabaseSynchronization* where implemented "consumers" consums the integration events from *MessageBus.Messages* assembly and are triggered by the "commands" in *CustomerCommands.API*. Messaging is implemented via MassTransit service bus with rabbitmq message broker.
+
 ## Instructions
 
 When you run the app, it will spinup five containers.
