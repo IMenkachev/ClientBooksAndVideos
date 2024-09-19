@@ -31,3 +31,7 @@ When you run the app, it will spinup five containers.
 5. *rabbitmq* which exposes the default 15672 port with credentials "guest"/"guest".
 
 Additionally a public postman collection is available. Please note that the Id's in the requests will be different and could be found by connecting to the mssql database.
+
+## DB Design
+
+<img width="1259" alt="BooksAndVideos_db_design" src="https://github.com/user-attachments/assets/e8e6ade3-2a10-490f-b48a-4f4ffbbeae86">
